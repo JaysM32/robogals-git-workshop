@@ -14,7 +14,7 @@ For example:
 MemesLol-02
 ```
 
-Then store anything inside that folder (can be a simple hello world (＾▽＾))
+Then store anything inside that folder ( can be a simple hello world (＾▽＾) )
 
 ### What to do
 
@@ -49,17 +49,19 @@ The command above prepare your files to be commited.
 git commit -m "{message}"
 ```
 
-> Please replace message with a propper commit message without curly braces for example git commit -m "fixed integer division error"
+> Please replace message with a propper commit message without curly braces for example git commit -m "example message"
 
 Then you can push the repo to the server by running
 
 ```bash
 git push
 ```
+> Git may ask you password in this step, please provide the password for your github account.
+> Git maay also ask the password set on ur SSH key when resetting ur connection to git. 
 
 You may push changes a few times to the server, you may also do a few commits before pushing, remember that commits acts like a snapshot so that you can get back to a version of your code in the future.
 
-If you think that all is good, you can create a pull request to merge your repo with the main repo 
+If you think that all is good, you can create a pull request to merge your repo with the main repo in https://github.com/JaysM32/robogals-git-workshop.git
 
 > Make sure your code doesn't interfere with your friend's and you don't delete any other part of the repo. Any pull request that doesn't comply with this rules will not be approved.
 
@@ -72,7 +74,15 @@ You can run the following:
 git remote add upstream <original repo>
 ```
 
+> Replace original repo with https://github.com/JaysM32/robogals-git-workshop.git
+
 > The code above is a one-time setup on every cloned repo, after that you just need to run the code below (every cloned repo means, if you re-clone the repo from your place, you'll need to rerun the command above).
+
+Sometimes in the future, your repo in github may have more commits that the one on your local computer, this may be caused by someone contributing or you push changes from other machine, to refresh you local repo and get latest changes, please run:
+
+```bash
+git pull
+```
 
 If your local repo is not altered, you can run this:
 
@@ -88,4 +98,4 @@ git rebase upstream/master
 
 > !!! WARNING : By using git rebase upstream/master all of your current progress will be deleted!
 
-## GooD LUck!
+## GooD LUck! ( ´ ω ` )
