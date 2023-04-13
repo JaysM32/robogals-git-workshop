@@ -1,6 +1,6 @@
-# Robogals Git Demo :)
+# Robogals Git Exercise :)
 
-## Demo
+## Exercise
 
 Make a folder with the naming convention below
 
